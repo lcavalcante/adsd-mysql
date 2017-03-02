@@ -3,8 +3,8 @@ var mysql = require("mysql");
 // First you need to create a connection to the db
 var con = mysql.createConnection({
   //host: "localhost",
-  host: "10.100.100.152",
-  user: "lucas",
+  host: "10.90.90.84",
+  user: 'lucas',
   password: "password",
   database: "sitepoint"
 });
@@ -98,6 +98,7 @@ con.query('SELECT * FROM employees',function(err,rows){
 	    console.log('Data received from Db:\n');
 		  console.log(rows);
 });
+
 con.end(function(err) {
   // The connection is terminated gracefully
   // Ensures all previously enqueued queries are still
