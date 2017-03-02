@@ -1,0 +1,28 @@
+db100
+
+time 0.309
+%cpu(s): 1,7
+mem 4,1
+
+time 0.249
+%cpu(s): 1,0
+mem 4,2
+
+time 0.275
+%cpu(s): 0,7
+mem 4,2
+
+db1000
+
+time 0.898
+%cpu(s): 5,3
+mem 4,2
+
+time 1.027
+%cpu(s): 5,3
+mem 4,2
+
+
+time 0.902
+%cpu(s): 6
+mem 4,2

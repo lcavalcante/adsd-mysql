@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.15.0",
     "grunt": "^1.0.1",
+    "mongodb": "^2.2.24",
     "mysql": "^2.13.0"
   },
   "devDependencies": {},

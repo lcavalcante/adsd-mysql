@@ -3,7 +3,7 @@ var mysql = require("mysql");
 // First you need to create a connection to the db
 var con = mysql.createConnection({
   //host: "localhost",
-  host: "10.90.90.84",
+  host: "10.10.11.16",
   user: 'lucas',
   password: "password",
   database: "sitepoint"
